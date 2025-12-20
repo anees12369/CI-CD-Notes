@@ -42,5 +42,6 @@
 
 - Useful depending on your project’s cloud platform and team needs.
 
-Key takeaway:
-Each CI/CD tool has its strengths and best use cases. The choice depends on your workflow, team size, and the platforms you already use.
+**Key takeaway:**
+
+- Each CI/CD tool has its strengths and best use cases. The choice depends on your workflow, team size, and the platforms you already use.

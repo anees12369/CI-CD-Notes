@@ -2,15 +2,19 @@
 
 - It helps us build, test, and release software applications much faster and much more reliably.
 
-**Continuous Integration** 
+**What is Continuous Integration?** 
 ---
-- The practice of automatically **integrating code changes frequently,** allows for automatic + continuous checks for errors, reducing big messy merges
+- Developers write and commit code frequently (GitHub, GitLab, Bitbucket, etc.).
 
-**Continuous Deployment/Delivery** 
+- This code is automatically built, ensuring it compiles and all dependencies are included.
+
+- Automated tests check for bugs and issues early.
+
+**What is Continuous Deployment/Delivery** 
 ---
-- **Continuous Delivery:** Code is built/changed and tested and is ready for **manual deployment** if it passes checks 
+- **Continuous Delivery:** Code that is built is ready for **manual deployment** if it passes checks 
 
-- **Continuous Deployment:** Code is built/changed and tested and **automatically deployed** if it passes checks 
+- **Continuous Deployment:** Code that is built is **automatically deployed** if it passes checks 
 
 **How does it work?**
 ---
@@ -47,12 +51,15 @@
 **Why CI/CD Is Important**
 ---
 
-- **Fast delivery:** Automation lets teams release features and fixes much faster.
+- **Automation:** Automation lets teams release features and fixes much faster.
 
-- **Better quality:** Bugs are caught early through continuous testing.
+- **Continuous Feedback:** Bugs are caught early through continuous testing.
 
 - **Reduced risk:** Small, frequent changes are easier and safer to deploy.
 
 - **Better collaboration:** Frequent integration means fewer conflicts and better teamwork.
 
+- **Consistency:** Ensure code works the same in all environments 
 
+
+![alt text](Screenshots/image.png)
