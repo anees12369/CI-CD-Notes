@@ -2,7 +2,7 @@
 
 **GitLab CI/CD**
 
-- Intergrated into GitLab.
+- Integrated into GitLab.
 
 - User-friendly, seamless if you already use GitLab for version control.
 
