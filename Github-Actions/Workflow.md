@@ -13,7 +13,7 @@
 
 - Automatically **builds and tests code, catches bugs early** and keeps the codebase stable, whenever changes are pushed 
 
-- Example: Run unit tests on every pull request to ensure new code doesn’t break existing features.
+- Example: Run **unit tests on every pull request** to ensure new code doesn’t break existing features.
 
 **2. Continuous Deployment (CD)**
 
@@ -23,7 +23,7 @@
 
 **3. Workflow Automation**
 
-- Automates repetitive tasks beyond build and deployment. Saves time and keeps projects organized.
+- Automates repetitive tasks **beyond build and deployment.** Saves time and keeps projects organized.
 
 - Example: Automatically moving issues or pull request cards on a GitHub project board.
  
