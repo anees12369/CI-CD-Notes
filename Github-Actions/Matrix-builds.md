@@ -55,3 +55,15 @@ jobs:
 ```
 
 - Jobs across different environments can pass/fail independently 
+
+**Key reasons to use a matrix build**
+---
+- Test compatibility across different OS versions, runtimes, or configurations
+
+- Catch environment-specific bugs early
+
+- Avoid “works on my machine” issues
+
+- Run tests in parallel, saving time
+
+- Keep workflows clean without duplicating jobs
