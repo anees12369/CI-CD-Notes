@@ -8,8 +8,12 @@
 ---
 ![alt text](../Screenshots/image-3.png)
 
-- `runs-on` specifies the OS/runner (Ubuntu, Windows, macOS)
+- `runs-on` specifies the virtual machine that the job will run on (Ubuntu, Windows, macOS) 
+
+- `Jobs` an run parallel or sequentially 
 
 - `steps` Individual tasks executed in order
 
-- `uses/run` The action/command that will be executed 
+- `uses/run` The action/command that will be executed within a job
+
+![alt text](../Screenshots/image-4.png)
