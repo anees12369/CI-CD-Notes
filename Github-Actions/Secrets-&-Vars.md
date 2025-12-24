@@ -7,3 +7,5 @@
 - Secrets keep sensitive data **out of GitHub, out of logs, and out of commits.**
 
 - Don’t: Print secrets, Commit secrets, Use secrets in client-side code, Hardcode credentials
+
+- You can create secrets on GitHub within you repo and then reference it in your workflow 
