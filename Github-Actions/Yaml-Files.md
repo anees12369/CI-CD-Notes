@@ -8,7 +8,6 @@
 
 **Why YAML is used:**
 ---
-
 - Easy to read and write, uses indentation instead of symbols, great for defining steps, settings, and workflows
 
 **3 Core YAML Concepts:**
