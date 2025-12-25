@@ -14,7 +14,7 @@
 
 ![alt text](../Screenshots/image-7.png)
 
-**Deploying to different enviroments**
+**Deploying to different environments**
 ---
 - When working in a real environment, we typically deploy to 3 or 4 environments: **Development, Staging, and Production.**
 
@@ -35,3 +35,25 @@
 - **Scan for vulnerabilities:** Regularly scan your code and dependencies using tools like **Dependabot, Snyk, or similar security scanners.** Catching vulnerabilities early helps prevent security breaches.
 
 - **Audit and monitor:** Enable **logging, auditing, and monitoring for your CI/CD pipelines.** Track actions, watch for suspicious behavior, and **set up alerts** so potential security incidents are detected and handled quickly.
+
+**Common issues and solutions** 
+---
+**Common issues:**
+
+- **Failed tests:** Tests may fail due to code issues or unexpected behavior, review the failing test and related code.
+
+- **Dependency errors:** Caused by missing, outdated, or conflicting libraries and packages.
+
+- **Configuration errors:** Often due to syntax mistakes in pipeline files (e.g., YAML indentation, spacing, or typos).
+
+- **Permission issues:** Occur when workflows lack access to required resources, secrets, or directories.
+
+**Common solutions:**
+
+- **Review logs:** Logs are the first place to look, as they usually point directly to the root cause.
+
+- **Rerun jobs:** Helps determine whether the issue was a temporary (transient) failure or a consistent problem.
+
+- **Update dependencies:** Keeping dependencies up to date can resolve compatibility and conflict issues.
+
+- **Verify configuration:** Double-check pipeline syntax, environment variables, and secrets to ensure everything is correctly set.
